@@ -3,17 +3,23 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column', 
     backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'center'
+    alignItems: 'center', 
+    justifyContent: 'flex-start', 
   },
   iconContainer: {
-    flex:1,
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    alignSelf: 'flex-start',
+    width: '100%', 
+    alignSelf: 'flex-start', 
     marginHorizontal: 20,
-    marginTop: 30
+    marginTop: 30,
+  },
+  inputContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginTop: 20,
   }
   
 });
