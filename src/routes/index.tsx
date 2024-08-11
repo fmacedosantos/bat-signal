@@ -11,7 +11,8 @@ import { Forms } from '../screens/Forms/Forms'
 export function AppRoutes(){
     return(
         <NavigationContainer>
-            <Stack.Navigator initialRouteName='Home'>
+            <Stack.Navigator initialRouteName='Home' 
+            screenOptions={{headerShown: false}}>
                 <Stack.Screen name='Home' component={Home}/>
                 <Stack.Screen name='Forms' component={Forms}/>
             </Stack.Navigator>
