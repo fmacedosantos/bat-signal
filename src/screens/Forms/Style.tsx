@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    marginTop: 20,
+    marginTop: 10,
   }
   
 });

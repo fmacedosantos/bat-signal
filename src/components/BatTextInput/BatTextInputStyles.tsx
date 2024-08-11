@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     borderColor: 'black',
     padding: 10,
     borderRadius: 10,
-    marginBottom: 20,
+    marginBottom: 40,
     width: 300
   }
 });

@@ -9,7 +9,7 @@ export function Home() {
   return (
     <View style={styles.appContainer}>
       <BatIcon/>
-      <BatButton text='Activate Bat Signal'/>
+      <BatButton text='Ativar Bat Sinal'/>
     </View>
   );
 }
