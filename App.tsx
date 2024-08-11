@@ -1,7 +1,7 @@
-import {Home} from './src/screens/Home/Home'
+import { AppRoutes } from './src/routes';
 
 export default function App() {
   return (
-    <Home></Home>
+    <AppRoutes/>
   );
 }
